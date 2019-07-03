@@ -5423,6 +5423,11 @@ gatsby-plugin-sharp@^2.0.36:
     sharp "^0.22.1"
     svgo "^1.2.0"
 
+gatsby-plugin-theme-ui@^0.2.1:
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-theme-ui/-/gatsby-plugin-theme-ui-0.2.3.tgz#bb04ed12df21462bae4f255914dcd163b728b2f6"
+  integrity sha512-/hPoVvjOQL7awORZtCcEmcjhfDYRdcJA6T4T5vCnQrHqd/tjZC8lSbR7i7tq0qlmXTDFj7aleoWDTiT/xHzwiA==
+
 gatsby-plugin-twitter@^2.0.11:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-twitter/-/gatsby-plugin-twitter-2.1.0.tgz#6d23b29a93f6816180b750fb1efc88ff550ecccd"
@@ -5592,10 +5597,10 @@ gatsby-theme-blog@^0.0.10:
     typeface-montserrat "0.0.54"
     typography-theme-wordpress-2016 "^0.16.18"
 
-gatsby-theme-notes@^0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-notes/-/gatsby-theme-notes-0.0.2.tgz#8899627239d99944ba6ee2c2b54f197666c37fa5"
-  integrity sha512-0UJDLi6qiWxYw3qIIXMggLN3g4EUUa5eB18TKad3T8AkZxzlr9I43ZRyStaFGewlovUEGQGg+m4BuNDci4NMSg==
+gatsby-theme-notes@^0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-notes/-/gatsby-theme-notes-0.0.3.tgz#eae1c4149d3085c67417146ac05f8ebec47c6b5b"
+  integrity sha512-Vj+L8FhmJgwjHNplGRTpLqqKeQ+5VvYa9JDi+Gc/+ptbOMLx1zxwHxUX6rBvGEeIgwSkvLG8NbedKzMWFfYXMg==
   dependencies:
     "@emotion/core" "^10.0.10"
     "@mdx-js/mdx" "^1.0.19"
@@ -5606,8 +5611,8 @@ gatsby-theme-notes@^0.0.2:
     gatsby-plugin-meta-redirect "^1.1.1"
     gatsby-plugin-og-image "0.0.1"
     gatsby-plugin-redirects "^1.0.0"
+    gatsby-plugin-theme-ui "^0.2.1"
     gatsby-source-filesystem "^2.0.35"
-    gatsby-theme-ui "^0.2.0"
     is-present "^1.0.0"
     react-feather "^1.1.6"
     theme-ui "^0.2.0"
