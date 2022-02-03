@@ -853,7 +853,7 @@
     "@babel/helper-plugin-utils" "^7.14.5"
     "@babel/plugin-syntax-private-property-in-object" "^7.14.5"
 
-"@babel/plugin-proposal-unicode-property-regex@^7.12.13":
+"@babel/plugin-proposal-unicode-property-regex@^7.12.13", "@babel/plugin-proposal-unicode-property-regex@^7.4.4":
   version "7.12.13"
   resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-unicode-property-regex/-/plugin-proposal-unicode-property-regex-7.12.13.tgz#bebde51339be829c17aaaaced18641deb62b39ba"
   integrity sha512-XyJmZidNfofEkqFV5VC/bLabGmO5QzenPO/YOfGuEbgU+2sSwMmio3YLb4WtBgcmmdwZHyVyv8on77IUjQ5Gvg==
@@ -861,7 +861,7 @@
     "@babel/helper-create-regexp-features-plugin" "^7.12.13"
     "@babel/helper-plugin-utils" "^7.12.13"
 
-"@babel/plugin-proposal-unicode-property-regex@^7.16.0", "@babel/plugin-proposal-unicode-property-regex@^7.4.4":
+"@babel/plugin-proposal-unicode-property-regex@^7.16.0":
   version "7.16.0"
   resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-unicode-property-regex/-/plugin-proposal-unicode-property-regex-7.16.0.tgz#890482dfc5ea378e42e19a71e709728cabf18612"
   integrity sha512-ti7IdM54NXv29cA4+bNNKEMS4jLMCbJgl+Drv+FgYy0erJLAxNAIXcNjNjrRZEcWq0xJHsNVwQezskMFpF8N9g==
@@ -5781,17 +5781,17 @@ domhandler@^2.3.0:
   dependencies:
     domelementtype "1"
 
-domhandler@^4.0.0, domhandler@^4.1.0:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/domhandler/-/domhandler-4.2.0.tgz#f9768a5f034be60a89a27c2e4d0f74eba0d8b059"
-  integrity sha512-zk7sgt970kzPks2Bf+dwT/PLzghLnsivb9CcxkvR8Mzr66Olr0Ofd8neSbglHJHaHa2MadfoSdNlKYAaafmWfA==
-  dependencies:
-    domelementtype "^2.2.0"
-
-domhandler@^4.2.0:
+domhandler@^4.0.0, domhandler@^4.2.0:
   version "4.2.2"
   resolved "https://registry.yarnpkg.com/domhandler/-/domhandler-4.2.2.tgz#e825d721d19a86b8c201a35264e226c678ee755f"
   integrity sha512-PzE9aBMsdZO8TK4BnuJwH0QT41wgMbRzuZrHUcpYncEjmQazq8QEaBWgLG7ZyC/DAZKEgglpIA6j4Qn/HmxS3w==
+  dependencies:
+    domelementtype "^2.2.0"
+
+domhandler@^4.1.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/domhandler/-/domhandler-4.2.0.tgz#f9768a5f034be60a89a27c2e4d0f74eba0d8b059"
+  integrity sha512-zk7sgt970kzPks2Bf+dwT/PLzghLnsivb9CcxkvR8Mzr66Olr0Ofd8neSbglHJHaHa2MadfoSdNlKYAaafmWfA==
   dependencies:
     domelementtype "^2.2.0"
 
